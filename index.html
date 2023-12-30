@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basal Metabolic Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bmr-calculator">
+        <h2>BMR Calculator</h2>
+        <div class="controls">
+            <form>
+                <div class="age-section">
+                    <h3>AGE</h3>
+                    <input type="text" id="age" placeholder="Enter your age.">
+                </div>
+
+                <div class="gender">
+                    <h3>GENDER</h3>
+                    <input type="radio" id="male" value="male" name="gender" checked> <!--Bydefalt checked -->
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="height-section">
+                    <h3>HEIGHT<span id="unit"> ( in cm )</span></h3>
+                    <input type="text" id="height" placeholder="ex : 165cm">
+                    <!-- <div class="unit">cm</div> -->
+                </div>
+                
+                <div class="weight-section">
+                    <h3>WEIGHT<span id="unit"> ( in kg )</span></h3>
+                    <input type="text" id="weight" placeholder="ex : 65kg">
+                    <!-- <div class="unit">kg</div> -->
+                </div>
+            </form>
+        </div>
+
+        <div class="result">
+            <button class="calculate-btn">CALCULATE</button>
+
+            <div class="result-msg">
+                <span class="calories"></span> 
+                Calories/day.
+            </div>
+
+            <div class="error-msg">
+                <p>Please enter all the details correctly.</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
