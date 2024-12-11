@@ -1,4 +1,4 @@
-# Basal Marabolic Rate (BMR) Calculator.
+# Basal Marabolic Rate (BMR) Calculator. [**🔗Live Link**](https://varunyadavgithub.github.io/BMR-Calculator/)
 
 A Basal Metabolic Rate (BMR) calculator is a tool that estimates the number of calories your body needs at rest to maintain basic physiological functions.
 It takes into account factors such as age, gender, weight, and height to provide an approximation of the calories your body requires to maintain vital 
